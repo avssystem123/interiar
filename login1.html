@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>InteriAR Login</title>
+<link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+<div id="login_div" class="simple">
+
+	   <h1>InteriAR Admin Login</h1>
+        <input type="email" name="email" id="email" placeholder="Your email"><br>
+        <br>
+        
+        <input type="password" name="pass" id="password" placeholder="Your password"><br>
+        <br>
+        <button onclick="login()">Login to Account</button>
+</div>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  const firebaseConfig = {
+    apiKey: "AIzaSyBQrIlqb_xlGGG8zgvjl5CFu5qgCK87r9c",
+    authDomain: "interiar-e600c.firebaseapp.com",
+    databaseURL: "https://interiar-e600c-default-rtdb.firebaseio.com",
+    projectId: "interiar-e600c",
+    storageBucket: "interiar-e600c.appspot.com",
+    messagingSenderId: "748315535951",
+    appId: "1:748315535951:web:c20f008f357fac8c15983a",
+    measurementId: "G-D2BJP780M7"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="lms/ind.js"></script>
+</body>
+</html>

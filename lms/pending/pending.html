@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Pending Orders</title>
+<link rel="stylesheet" href="css/pend1.css">
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="sidebar">
+    <div class="logo-details"><box-icon type='solid' name='car-garage'></box-icon>
+      <i class='bx bxs-home-smile'></i>
+      <span class="logo_name">InteriAR</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="../homepage.html">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="../total/total.html">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">All Orders</span>
+          </a>
+        </li>
+        <li>
+          <a href="pending.html" class="active">
+            <i class='bx bx-book-alt' ></i>
+            <span class="links_name">Pending Orders</span>
+          </a>
+        </li>
+		<li class="add_user">
+          <a href="../register/register.html">
+            <i class='bx bx-user-plus'></i>
+            <span class="links_name">Add User</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="../logout/logout.html">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <!--<img src="images/profile.jpg" alt="">-->
+        <span class="admin_name">Prem Shahi</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+	<div class="pendsales">
+  <table class="pendsales1">
+    <tr>
+      <th>Id:</th>
+      <th>Product Name:</th>
+      <th>User:</th>
+      <th>Length:</th>
+      <th>Breadth:</th>
+      <th>Height:</th>
+      <th>Done:</th>
+      <th>Material:</th>
+      <th>Date:</th>
+    </tr>
+    <tr>
+      <td>012</td>
+      <td>Couch</td>
+      <td>Mrs.Goel</td>
+      <td>50cm</td>
+      <td>50cm</td>
+      <td>50cm</td>
+      <td>Yes:<input type="checkbox">  No:<input type="checkbox"></td>
+      <td>Wood</td>
+      <td>02/12/2021</td>
+    </tr>
+    <tr>
+      <td>014</td>
+      <td>Table</td>
+      <td>Mrs.Choubey</td>
+      <td>50cm</td>
+      <td>50cm</td>
+      <td>50cm</td>
+      <td>Yes:<input type="checkbox">  No:<input type="checkbox"></td>
+      <td>Metal</td>
+      <td>02/12/2021</td>
+    </tr>
+    <tr>
+      <td>018</td>
+      <td>Bed</td>
+      <td>Mrs.Gupta</td>
+      <td>50cm</td>
+      <td>50cm</td>
+      <td>50cm</td>
+      <td>Yes:<input type="checkbox">  No:<input type="checkbox"></td>
+      <td>Wood</td>
+      <td>02/12/2021</td>
+    </tr>
+  </table>
+</div>
+
+	  </section>
+	 <script type="text/javascript" src="js/pend1.js"></script>
+</body>
+</html>
